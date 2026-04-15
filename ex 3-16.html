@@ -1,0 +1,33 @@
+<HTML>
+    <head>
+        <meta charset="utf-8">
+    <title>도형 서식 폼 만들기</title>
+   
+    </head>
+     <body>
+        <h3>도형 서식 입력</h3>
+        <hr>
+        <form>
+            <select name="line">
+                <option value="1">선 없음</option>
+                <option value="2" selected>실선</option>
+                <option value="3">점선</option>
+
+            </select>
+            <body>
+        <form name="fo" method="get">
+                    <lable>선 두께:<input type="text" size="15" value="">
+                    </lable><br>
+            </body>
+            <body>
+        <form>
+                    선 색
+                    <input type="color" value="#00BFFF"
+                     onchange="document.body.style.color=this. value">
+            </body>
+            
+        </form>
+     </body>
+
+  
+</HTML>
